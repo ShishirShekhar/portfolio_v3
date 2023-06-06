@@ -16,12 +16,52 @@ const data = [
     live: "https://cblpu-vertos.vercel.app/",
   },
   {
-    title: "TaskY - Task Management Application",
+    title: "Vana Clone - E-commerce Website",
+    description:
+      "Description: Vana Clone is a meticulously crafted e-commerce website project, faithfully replicating the look and functionality of a popular online shopping platform.",
+    tech_stack: ["React.js", "tailwind"],
+    github: "https://github.com/ShishirShekhar/TaskY",
+    live: "https://shishirshekhar.github.io/TaskY/",
+  },
+  {
+    title: "Keeper - Note-Taking App",
     description:
       "TaskY is a user-friendly task management application. It provides an intuitive interface to create, track, and manage tasks efficiently, helping users stay organized and productive.",
     tech_stack: ["HTML", "CSS", "Js", "Bootstrap"],
     github: "https://github.com/ShishirShekhar/TaskY",
     live: "https://shishirshekhar.github.io/TaskY/",
+  },
+  {
+    title: "TaskY - Task Management Application",
+    description:
+      "Keeper is a user-friendly note-taking app that enables users to create and organize their notes effortlessly.",
+    tech_stack: ["React.js", "CSS", "Material UI"],
+    github: "https://github.com/ShishirShekhar/TaskY",
+    live: "https://shishirshekhar.github.io/TaskY/",
+  },
+  {
+    title: "Parallax - Interactive Parallax Effect",
+    description:
+      "Parallax is an engaging project that showcases an interactive parallax effect.",
+    tech_stack: ["HTML", "CSS", "Js"],
+    github: "https://github.com/ShishirShekhar/parallax",
+    live: "https://shishirshekhar.github.io/parallax/",
+  },
+  {
+    title: "Emojipedia - Emoji Reference Website",
+    description:
+      "A comprehensive emoji reference website providing a vast collection of emojis along with their meanings.",
+    tech_stack: ["React.js", "CSS"],
+    github: "https://github.com/ShishirShekhar/emojipedia",
+    live: "https://shishir-emojipedia.netlify.app/",
+  },
+  {
+    title: "Books API - RESTful API for Book Management",
+    description:
+      "Books API is a RESTful API project for managing books, allowing developers to create, retrieve, update, and delete book records seamlessly.",
+    tech_stack: ["Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/ShishirShekhar/Books-API",
+    live: "https://books-api-beta.vercel.app/",
   },
 ];
 
