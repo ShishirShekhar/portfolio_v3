@@ -13,7 +13,7 @@ const Dashboard = () => {
         <h1 className="text-3xl font-bold pt-10">Hello!</h1>
         <p className="pt-2 text-2xl font-thin leading-8 lg:leading-10 tracking-wide lg:tracking-widest">
           I'm <span className="font-bold">Shishir Shekhar</span> a passionate
-          learner and aspiring full stack developer based in Bangalore.
+          learner and aspiring full stack developer based in Jalandhar.
         </p>
         <p className="text-2xl font-thin leading-8 lg:leading-10 tracking-wide lg:tracking-widest">
           My world revolves around coding and discovering new programming
