@@ -23,7 +23,7 @@ const Nav = () => {
         />
       </Link>
 
-      <div className="flex text-4xl gap-4">
+      <div className="flex text-4xl gap-10">
         <Link to="/" onClick={() => setHome(true)}>
           {home ? <AiFillHome /> : <GoHome />}
         </Link>
