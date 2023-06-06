@@ -8,7 +8,7 @@ const data = [
     live: "https://college-grahasthi.vercel.app/",
   },
   {
-    title: "CB Form",
+    title: "CB Form - Streamline Information Submission",
     description:
       "CB Form is a versatile React-based web form for seamless information submission, featuring user-friendly input fields and easy integration.",
     tech_stack: ["React.js", "tailwind", "axios", "Node.js", "Express.js", "MongoDB"],
