@@ -1,26 +1,21 @@
 import Button from "../Button";
 
-const Project = () => {
+const Project = ({ project }) => {
   return (
-    <div className="flex flex-col gap-2 border-2 border-black rounded-xl p-2 w-[600px]">
-      <h1 className="text-2xl font-bold">PETCLUB - Social Media Application</h1>
+    <div className="flex flex-col gap-2 border-2 border-black rounded-xl p-2 px-6 w-[600px]">
+      <h1 className="text-2xl font-bold">{project.title}</h1>
 
-      <div className="flex justify-between w-1/2 gap-2">
-        <p className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">Redux</p>
-        <p className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">Toolkit</p>
-        <p className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">MERN</p>
-        <p className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">Stack</p>
-        <p className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">CSS</p>
+      <div className="flex gap-2">
+        {project.tech_stack.map((tech, index) => (
+          <p key={index} className="bg-gray-400 py-2 px-3 text-white text-xs rounded-xl">{tech}</p>
+        ))}
       </div>
 
-      <p>
-        A Social Media Application created using Redux Toolkit! Has User
-        Management and Post Management. Uses Purple CSS.
-      </p>
+      <p className="py-2">{project.description}</p>
 
-      <div className="flex gap-4 text-xs">
-        <Button to="https://github.com/ShishirShekhar" value="Github" />
-        <Button to="https://github.com/ShishirShekhar" value="Live App" />
+      <div className="flex gap-4 text-sm">
+        <Button to={project.github} value="Github" />
+        <Button to={project.live} value="Live App" />
       </div>
     </div>
   );
