@@ -20,16 +20,16 @@ const data = [
     description:
       "Description: Vana Clone is a meticulously crafted e-commerce website project, faithfully replicating the look and functionality of a popular online shopping platform.",
     tech_stack: ["React.js", "tailwind"],
-    github: "https://github.com/ShishirShekhar/TaskY",
-    live: "https://shishirshekhar.github.io/TaskY/",
+    github: "https://github.com/ShishirShekhar/vana-clone",
+    live: "https://vana-clone.netlify.app/",
   },
   {
     title: "Keeper - Note-Taking App",
     description:
       "TaskY is a user-friendly task management application. It provides an intuitive interface to create, track, and manage tasks efficiently, helping users stay organized and productive.",
     tech_stack: ["HTML", "CSS", "Js", "Bootstrap"],
-    github: "https://github.com/ShishirShekhar/TaskY",
-    live: "https://shishirshekhar.github.io/TaskY/",
+    github: "https://github.com/ShishirShekhar/keeper",
+    live: "https://shishir-keeper.netlify.app/",
   },
   {
     title: "TaskY - Task Management Application",
