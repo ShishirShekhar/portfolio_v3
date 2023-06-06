@@ -1,4 +1,4 @@
-import profile from "../img/profile.jpg";
+import profile from "../../img/profile.jpg";
 
 const Dashboard = () => {
   return (
