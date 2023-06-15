@@ -1,5 +1,13 @@
 const data = [
   {
+    title: "LogistiConnect - Streamlining Logistics Operations",
+    description:
+      "Streamlined logistics platform for end-to-end supply chain, warehouse, and transportation management. Simplify processes, cut costs, and elevate customer satisfaction.",
+    tech_stack: ["React.js", "tailwind", "Node.js", "Express.js", "MongoDB"],
+    github: "https://github.com/ShishirShekhar/LogistiConnect",
+    live: "https://logisti-connect.vercel.app/",
+  },
+  {
     title: "CG - Student Accommodation Website",
     description:
       "A streamlined student accommodation platform with advanced search, detailed listings, mobile responsiveness, user authentication, and reviews.",
